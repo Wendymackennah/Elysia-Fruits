@@ -2,7 +2,7 @@ import { Container, Grid, Typography, Box, Button } from '@mui/material';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import CategoryCard from '../components/CategoryCard';
-import { categories } from '../data/products';
+import { categories } from '../Data/products';
 import { useNavigate } from 'react-router-dom';
 
 export default function Home() {
